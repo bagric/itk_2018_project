@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F12B3A520C9636500B15D41 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F12B3A420C9636500B15D41 /* default.png */; };
+		3F12B3A720C9660000B15D41 /* CharacterListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F12B3A620C9660000B15D41 /* CharacterListViewCell.swift */; };
+		3F15EADF20C9187B0081E9D0 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F15EADE20C9187B0081E9D0 /* Character.swift */; };
+		3F15EAE320C91AF90081E9D0 /* CharacterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F15EAE220C91AF90081E9D0 /* CharacterListView.swift */; };
+		3F28117B205701ED00FCDB46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F28117A205701ED00FCDB46 /* AppDelegate.swift */; };
+		3F28117D205701ED00FCDB46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F28117C205701ED00FCDB46 /* ViewController.swift */; };
+		3F281180205701EE00FCDB46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F28117E205701EE00FCDB46 /* Main.storyboard */; };
+		3F281182205701EE00FCDB46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F281181205701EE00FCDB46 /* Assets.xcassets */; };
+		3F281185205701EE00FCDB46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F281183205701EE00FCDB46 /* LaunchScreen.storyboard */; };
+		3F281190205701EE00FCDB46 /* MagusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F28118F205701EE00FCDB46 /* MagusTests.swift */; };
+		3F28119B205701EE00FCDB46 /* MagusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F28119A205701EE00FCDB46 /* MagusUITests.swift */; };
+		3F3AF40220DA75BA0002684F /* CharacterListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3AF40120DA75BA0002684F /* CharacterListViewController.swift */; };
+		3FD35D7A20C028D3000E9CDA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FD35D7920C028D3000E9CDA /* GoogleService-Info.plist */; };
+		3FD35D7C20C0346C000E9CDA /* UserSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD35D7B20C0346C000E9CDA /* UserSettingsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F28118C205701EE00FCDB46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F28116F205701ED00FCDB46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F281176205701ED00FCDB46;
+			remoteInfo = Magus;
+		};
+		3F281197205701EE00FCDB46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F28116F205701ED00FCDB46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F281176205701ED00FCDB46;
+			remoteInfo = Magus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F12B3A420C9636500B15D41 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = default.png; path = ../../../Downloads/default.png; sourceTree = "<group>"; };
+		3F12B3A620C9660000B15D41 /* CharacterListViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterListViewCell.swift; sourceTree = "<group>"; };
+		3F15EADE20C9187B0081E9D0 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		3F15EAE220C91AF90081E9D0 /* CharacterListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterListView.swift; sourceTree = "<group>"; };
+		3F281177205701ED00FCDB46 /* Magus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Magus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F28117A205701ED00FCDB46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F28117C205701ED00FCDB46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F28117F205701EE00FCDB46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F281181205701EE00FCDB46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F281184205701EE00FCDB46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F281186205701EE00FCDB46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F28118B205701EE00FCDB46 /* MagusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F28118F205701EE00FCDB46 /* MagusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagusTests.swift; sourceTree = "<group>"; };
+		3F281191205701EE00FCDB46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F281196205701EE00FCDB46 /* MagusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F28119A205701EE00FCDB46 /* MagusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagusUITests.swift; sourceTree = "<group>"; };
+		3F28119C205701EE00FCDB46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F3AF40120DA75BA0002684F /* CharacterListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterListViewController.swift; sourceTree = "<group>"; };
+		3FD35D7920C028D3000E9CDA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3FD35D7B20C0346C000E9CDA /* UserSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSettingsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F281174205701ED00FCDB46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F281188205701EE00FCDB46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F281193205701EE00FCDB46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F28116E205701ED00FCDB46 = {
+			isa = PBXGroup;
+			children = (
+				3F15EADE20C9187B0081E9D0 /* Character.swift */,
+				3F12B3A420C9636500B15D41 /* default.png */,
+				3F281179205701ED00FCDB46 /* Magus */,
+				3F28118E205701EE00FCDB46 /* MagusTests */,
+				3F281199205701EE00FCDB46 /* MagusUITests */,
+				3F281178205701ED00FCDB46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F281178205701ED00FCDB46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F281177205701ED00FCDB46 /* Magus.app */,
+				3F28118B205701EE00FCDB46 /* MagusTests.xctest */,
+				3F281196205701EE00FCDB46 /* MagusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F281179205701ED00FCDB46 /* Magus */ = {
+			isa = PBXGroup;
+			children = (
+				3F28117A205701ED00FCDB46 /* AppDelegate.swift */,
+				3F28117C205701ED00FCDB46 /* ViewController.swift */,
+				3F15EAE220C91AF90081E9D0 /* CharacterListView.swift */,
+				3F3AF40120DA75BA0002684F /* CharacterListViewController.swift */,
+				3F12B3A620C9660000B15D41 /* CharacterListViewCell.swift */,
+				3FD35D7B20C0346C000E9CDA /* UserSettingsViewController.swift */,
+				3F28117E205701EE00FCDB46 /* Main.storyboard */,
+				3F281181205701EE00FCDB46 /* Assets.xcassets */,
+				3F281183205701EE00FCDB46 /* LaunchScreen.storyboard */,
+				3F281186205701EE00FCDB46 /* Info.plist */,
+				3FD35D7920C028D3000E9CDA /* GoogleService-Info.plist */,
+			);
+			path = Magus;
+			sourceTree = "<group>";
+		};
+		3F28118E205701EE00FCDB46 /* MagusTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F28118F205701EE00FCDB46 /* MagusTests.swift */,
+				3F281191205701EE00FCDB46 /* Info.plist */,
+			);
+			path = MagusTests;
+			sourceTree = "<group>";
+		};
+		3F281199205701EE00FCDB46 /* MagusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F28119A205701EE00FCDB46 /* MagusUITests.swift */,
+				3F28119C205701EE00FCDB46 /* Info.plist */,
+			);
+			path = MagusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F281176205701ED00FCDB46 /* Magus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F28119F205701EE00FCDB46 /* Build configuration list for PBXNativeTarget "Magus" */;
+			buildPhases = (
+				3F281173205701ED00FCDB46 /* Sources */,
+				3F281174205701ED00FCDB46 /* Frameworks */,
+				3F281175205701ED00FCDB46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Magus;
+			productName = Magus;
+			productReference = 3F281177205701ED00FCDB46 /* Magus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F28118A205701EE00FCDB46 /* MagusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F2811A2205701EE00FCDB46 /* Build configuration list for PBXNativeTarget "MagusTests" */;
+			buildPhases = (
+				3F281187205701EE00FCDB46 /* Sources */,
+				3F281188205701EE00FCDB46 /* Frameworks */,
+				3F281189205701EE00FCDB46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F28118D205701EE00FCDB46 /* PBXTargetDependency */,
+			);
+			name = MagusTests;
+			productName = MagusTests;
+			productReference = 3F28118B205701EE00FCDB46 /* MagusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F281195205701EE00FCDB46 /* MagusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F2811A5205701EE00FCDB46 /* Build configuration list for PBXNativeTarget "MagusUITests" */;
+			buildPhases = (
+				3F281192205701EE00FCDB46 /* Sources */,
+				3F281193205701EE00FCDB46 /* Frameworks */,
+				3F281194205701EE00FCDB46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F281198205701EE00FCDB46 /* PBXTargetDependency */,
+			);
+			name = MagusUITests;
+			productName = MagusUITests;
+			productReference = 3F281196205701EE00FCDB46 /* MagusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F28116F205701ED00FCDB46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = BRM;
+				TargetAttributes = {
+					3F281176205701ED00FCDB46 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					3F28118A205701EE00FCDB46 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F281176205701ED00FCDB46;
+					};
+					3F281195205701EE00FCDB46 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F281176205701ED00FCDB46;
+					};
+				};
+			};
+			buildConfigurationList = 3F281172205701ED00FCDB46 /* Build configuration list for PBXProject "Magus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F28116E205701ED00FCDB46;
+			productRefGroup = 3F281178205701ED00FCDB46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F281176205701ED00FCDB46 /* Magus */,
+				3F28118A205701EE00FCDB46 /* MagusTests */,
+				3F281195205701EE00FCDB46 /* MagusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F281175205701ED00FCDB46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F281185205701EE00FCDB46 /* LaunchScreen.storyboard in Resources */,
+				3FD35D7A20C028D3000E9CDA /* GoogleService-Info.plist in Resources */,
+				3F281182205701EE00FCDB46 /* Assets.xcassets in Resources */,
+				3F281180205701EE00FCDB46 /* Main.storyboard in Resources */,
+				3F12B3A520C9636500B15D41 /* default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F281189205701EE00FCDB46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F281194205701EE00FCDB46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F281173205701ED00FCDB46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F28117D205701ED00FCDB46 /* ViewController.swift in Sources */,
+				3FD35D7C20C0346C000E9CDA /* UserSettingsViewController.swift in Sources */,
+				3F12B3A720C9660000B15D41 /* CharacterListViewCell.swift in Sources */,
+				3F15EAE320C91AF90081E9D0 /* CharacterListView.swift in Sources */,
+				3F3AF40220DA75BA0002684F /* CharacterListViewController.swift in Sources */,
+				3F28117B205701ED00FCDB46 /* AppDelegate.swift in Sources */,
+				3F15EADF20C9187B0081E9D0 /* Character.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F281187205701EE00FCDB46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F281190205701EE00FCDB46 /* MagusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F281192205701EE00FCDB46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F28119B205701EE00FCDB46 /* MagusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F28118D205701EE00FCDB46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F281176205701ED00FCDB46 /* Magus */;
+			targetProxy = 3F28118C205701EE00FCDB46 /* PBXContainerItemProxy */;
+		};
+		3F281198205701EE00FCDB46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F281176205701ED00FCDB46 /* Magus */;
+			targetProxy = 3F281197205701EE00FCDB46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F28117E205701EE00FCDB46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F28117F205701EE00FCDB46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F281183205701EE00FCDB46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F281184205701EE00FCDB46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F28119D205701EE00FCDB46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F28119E205701EE00FCDB46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F2811A0205701EE00FCDB46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Magus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BRM.Magus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3F2811A1205701EE00FCDB46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Magus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BRM.Magus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3F2811A3205701EE00FCDB46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MagusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BRM.MagusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Magus.app/Magus";
+			};
+			name = Debug;
+		};
+		3F2811A4205701EE00FCDB46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MagusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BRM.MagusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Magus.app/Magus";
+			};
+			name = Release;
+		};
+		3F2811A6205701EE00FCDB46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MagusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BRM.MagusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Magus;
+			};
+			name = Debug;
+		};
+		3F2811A7205701EE00FCDB46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MagusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BRM.MagusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Magus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F281172205701ED00FCDB46 /* Build configuration list for PBXProject "Magus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F28119D205701EE00FCDB46 /* Debug */,
+				3F28119E205701EE00FCDB46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F28119F205701EE00FCDB46 /* Build configuration list for PBXNativeTarget "Magus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F2811A0205701EE00FCDB46 /* Debug */,
+				3F2811A1205701EE00FCDB46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F2811A2205701EE00FCDB46 /* Build configuration list for PBXNativeTarget "MagusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F2811A3205701EE00FCDB46 /* Debug */,
+				3F2811A4205701EE00FCDB46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F2811A5205701EE00FCDB46 /* Build configuration list for PBXNativeTarget "MagusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F2811A6205701EE00FCDB46 /* Debug */,
+				3F2811A7205701EE00FCDB46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F28116F205701ED00FCDB46 /* Project object */;
+}
